@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Kings Game</string>
+    <string name="menu_actividad">Cerrar sesión</string>
+    <string name="email">Correo electrónico</string>
+    <string name="clave">Contraseña</string>
+    <string name="login">ENTRAR</string>
+    <string name="registro">REGISTRARSE</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Celular</string>
+    <string name="claveAgain">Repetir contraseña</string>
+    <string name="fecha">Fecha de nacimiento</string>
+    <string name="lugar_nacimiento">Lugar de nacimiento</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="sexo">Género</string>
+    <string name="sexF">Femenino</string>
+    <string name="sexM">Masculino</string>
+    <string name="fecha_nacimiento">yyyy/MM/dd</string>
+    <string name="titulo">REGISTRO</string>
+    <string-array name="lista_ciudades">
+        <item>Seleccione una ciudad</item>
+        <item>Bogotá</item>
+        <item>Medellín</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+        <item>Soacha</item>
+        <item>Cúcuta</item>
+        <item>Soledad</item>
+        <item>Bucaramanga</item>
+        <item>Bello</item>
+        <item>Villavicencio</item>
+        <item>Ibagué</item>
+        <item>Santa Marta</item>
+        <item>Valledupar</item>
+        <item>Manizales</item>
+        <item>Pereira</item>
+        <item>Montería</item>
+        <item>Neiva</item>
+        <item>Pasto</item>
+        <item>Armenia</item>
+        <item>Otro</item>
+        <item>Extranjero</item>
+    </string-array>
+</resources>
