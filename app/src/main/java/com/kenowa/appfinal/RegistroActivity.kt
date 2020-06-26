@@ -6,7 +6,6 @@ import android.content.Intent
 import android.icu.text.SimpleDateFormat
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.Toast
@@ -94,35 +93,5 @@ class RegistroActivity : AppCompatActivity() {
                 }
             }
         }
-    }
-
-    override fun onStart() {
-        super.onStart()
-        Log.d("OnStart2", "ok")
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.d("OnResume2", "ok")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.d("OnPause2", "ok")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.d("OnStop2", "ok")
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-        Log.d("OnRestart2", "ok")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d("OnDestroy2", "ok")
     }
 }

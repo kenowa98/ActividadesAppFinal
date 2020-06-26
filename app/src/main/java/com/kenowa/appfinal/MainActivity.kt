@@ -2,7 +2,6 @@ package com.kenowa.appfinal
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -34,39 +33,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent( this, LoginActivity::class.java )
             intent.putExtra( "correo", correo )
             intent.putExtra( "clave", clave )
-            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
+            finish()
         }
         return true
-    }
-
-    override fun onStart() {
-        super.onStart()
-        Log.d("OnStart3", "ok")
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.d("OnResume3", "ok")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.d("OnPause3", "ok")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.d("OnStop3", "ok")
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-        Log.d("OnRestart3", "ok")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d("OnDestroy3", "ok")
     }
 }
