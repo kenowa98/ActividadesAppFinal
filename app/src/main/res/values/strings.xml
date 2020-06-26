@@ -16,6 +16,13 @@
     <string name="sexM">Masculino</string>
     <string name="fecha_nacimiento">yyyy/MM/dd</string>
     <string name="titulo">REGISTRO</string>
+    <string name="hobbie">Hobbies</string>
+    <string name="cantar">Cantar</string>
+    <string name="bailar">Bailar</string>
+    <string name="series">Series</string>
+    <string name="videojuego">PSP/Xbox</string>
+    <string name="cocinar">Cocinar</string>
+    <string name="leer">Leer</string>
     <string-array name="lista_ciudades">
         <item>Seleccione una ciudad</item>
         <item>Bogotá</item>
